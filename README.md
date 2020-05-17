@@ -48,8 +48,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### Deployment in netlify
 
-This project is running in 
+This project is running in https://5ec0c7e158d582000756fad1--musing-sinoussi-2b41cc.netlify.app/
 
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
