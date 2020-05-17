@@ -18,10 +18,10 @@ const Detail = (props) =>{
             />
             <div className='action'>
                 <div className='boton'>
-                    <NavigateBefore className='icon'  onClick={back}/><Boton onClick={back}> Anterior</Boton>
+                    <NavigateBefore className='icon'/><Boton> Anterior</Boton>
                 </div>
                 <div className='boton'>
-                    <Boton onClick={next}> Siguiente</Boton><NavigateNext className='icon' onClick={next}/>
+                    <Boton > Siguiente</Boton><NavigateNext className='icon'/>
                 </div>
             </div>
         </Layout> 
