@@ -29,17 +29,15 @@ const ListColors = (props) =>{
         <div className='container'>
             <div className= 'wrapper'>
                 {colors.length > 0 ? colors.map((color,i) => (
-                    <>
-                    <div key={i} className='element' style={{backgroundColor:`${color.color}`}}>
-                        <Color  id={colors.id}
+                    <div key = {i} className='element' style={{backgroundColor:`${color.color}`}}>
+                        <Color  
                             year = {color.year}
                             name ={color.name}
                             color ={color.color}
                             pantone_value ={color.pantone_value}
                             value={color.color}
                         />
-                    </div> 
-                    </>
+                    </div>
                 ))
                 :
                 <span>No existen colores disponibles</span>
