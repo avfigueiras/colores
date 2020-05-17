@@ -1,0 +1,27 @@
+.box{
+    height: 100%;
+    display: grid;
+    grid-template-areas: "year"
+                          "color"
+                          "value";
+    .year{
+        padding:2px;
+    }
+    .color{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .num{
+            font-size: 20px;
+           font-weight: 900;
+        }
+    }
+    .value{
+        padding:2px;
+        display:flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+}
+    
