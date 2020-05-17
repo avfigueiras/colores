@@ -1,6 +1,8 @@
 import React,{useEffect, useState, Fragment} from 'react';
 import axios from 'axios';
 import './style.scss';
+import NavigateBefore from '@material-ui/icons/NavigateBefore';
+import NavigateNext from '@material-ui/icons/NavigateNext';
 import Color from '../color/index';
 import Boton from '../buttons/index';
 
@@ -45,8 +47,12 @@ const ListColors = (props) =>{
             </div>
         </div>
             <div className='action'>
-                <Boton onClick={back}> Anterior</Boton>
-                <Boton onClick={next}> Siguiente</Boton>
+                <div className='boton'>
+                    <NavigateBefore className='icon'  onClick={back}/><Boton onClick={back}> Anterior</Boton>
+                </div>
+                <div className='boton'>
+                    <Boton onClick={next}> Siguiente</Boton><NavigateNext className='icon' onClick={next}/>
+                </div>
             </div>
             
     </Fragment>

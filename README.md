@@ -4,9 +4,9 @@ This project consists of an Api of colors that must be displayed in the form of 
 ### Technology
 - Javascript library --Reactjs
 - Css preprocessor --Sass
--React-router-dom
--Promise based HTTP client for the browser and node.js  --Axios
--Framework CSS  --Material-UI
+- React-router-dom
+- Promise based HTTP client for the browser and node.js  --Axios
+- Framework CSS  --Material-UI
 
 ## Available Scripts
 
@@ -19,9 +19,6 @@ To install the project
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
 ### `npm test`
 
