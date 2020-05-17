@@ -48,5 +48,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### Deployment in netlify
 
-This project is running in https://5ec0c7e158d582000756fad1--musing-sinoussi-2b41cc.netlify.app/
+This project is running in https://5ec182174d9fda00069e6b51--musing-sinoussi-2b41cc.netlify.app/
 
